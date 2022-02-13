@@ -31,7 +31,7 @@ let validator = (email) => {
     let dot = email.indexOf(`.`);
     if (dot >= at && dot <= at + 2) return false;
 
-    if (dot === email.length-1) return false;
+    if (dot === email.length-1 || email.startsWith(`.`)) return false;
 
     return true;
 }
