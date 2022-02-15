@@ -109,3 +109,6 @@ let cutString2 = (str, n) => {
     return str.split(` `).splice(0, n).join(` `);
 }
 console.log(cutString2(string, n));
+
+
+
