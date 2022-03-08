@@ -124,7 +124,6 @@ let tagsList = document.createElement(`ul`);
 let content = document.getElementById(`content`);
 
 for (const h2 of all_h2) {
-    console.log(h2.innerText);
     let listItem = document.createElement(`li`);
     listItem.innerText = h2.innerText;
 
