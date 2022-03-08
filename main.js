@@ -176,3 +176,5 @@ for (const el of coursesArray) {
     courses.append(course)
     document.body.append(courses);
 }
+
+//в example перші 3 modules не виглядають як частина списку, тому я їх зробив параграфами, але простіше було би всі зробити як список
