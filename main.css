@@ -1,0 +1,35 @@
+.course_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    box-sizing: border-box;
+}
+
+.title {
+    width: 100%;
+}
+
+.border {
+    text-align: center;
+    border: 5px solid darkolivegreen;
+    border-radius: 15px;
+}
+
+.monthDuration {
+    width: 20%;
+}
+
+.hourDuration {
+    width: 78%;
+}
+
+.sameModule {
+    margin-left: 20px;
+}
+
+.modules {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
