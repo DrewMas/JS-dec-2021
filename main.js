@@ -26,12 +26,6 @@ let btn3 = document.getElementById(`btn3`).onclick = () => {
 let title = document.getElementById(`title`).onclick = () => {
     let list = document.getElementById(`list`);
     list.hidden = list.hidden === false;
-
-    // if (list.hidden === false) {
-    //     list.hidden = true;
-    // } else {
-    //     list.hidden = false;
-    // } я зробив так, але IDE запропонувала simplify, але я не дуже розумію як це працює
 }
 
 //
