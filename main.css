@@ -1,0 +1,33 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post {
+    border: 2px solid darkolivegreen;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px goldenrod;
+    margin: 1rem;
+    width: 18%;
+    box-sizing: border-box;
+    padding: .5rem;
+}
+
+
+
+
+.singleComment {
+    border: 3px solid orange;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px darkolivegreen;
+
+}
